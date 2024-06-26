@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+
+/* Reseteo de estilos básicos */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales del body */
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 50px;
+  padding: 1%;
+  background: #000;
+  color: white;
+}
+
+/* Sección de imagen principal */
+.seccion-imagen img {
+  width: 100%;
+}
+
+/* Sección de definición */
+.seccion-definicion {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.seccion-definicion img {
+  width: 30%;
+  order: 2;
+}
+
+.seccion-definicion div {
+  width: 40%;
+  order: 1;
+}
+
+/* Sección de características */
+.seccion-caracteristicas {
+  text-align: center;
+  background-color: #1e1a13;
+  padding: 5%;
+}
+
+.seccion-caracteristicas h2 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.caracteristica {
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 20px;
+}
+
+.caracteristica i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.caracteristica p {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+/* Sección de galería */
+.seccion-galeria {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  background: #000;
+}
+
+.seccion-galeria img {
+  width: 30%;
+  height: auto;
+  margin: 1%;
+}
+
+/* Pie de página */
+footer {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 2%;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(216, 214, 214);
+}
